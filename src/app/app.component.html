@@ -541,3 +541,9 @@
 </div>
 
 <app-hello-word>Aqui...</app-hello-word>
+
+<ul>
+  <li *ngFor="let user of users">
+    <app-user [nameUser]="user"></app-user>
+  </li>
+</ul>
