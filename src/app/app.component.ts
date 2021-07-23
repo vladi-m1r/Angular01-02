@@ -32,5 +32,10 @@ export class AppComponent {
     this.hobbies.push(hobby.value);
     hobby.value = "";
     return false;
+    
+  }
+
+  sayHello(){
+    alert("Hola desde app.component");
   }
 }
