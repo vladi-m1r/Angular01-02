@@ -549,3 +549,10 @@
 </ul>
 
 <button (click)="sayHello()">Dame Click</button>
+
+<h1> Desde App.Component</h1>
+<ul>
+  <li *ngFor="let user of users">
+    {{ user }} <button (click)="deleteUser(user)">Borrar Usuario</button>
+  </li>
+</ul>
