@@ -42,6 +42,13 @@ export class AppComponent {
       }
     }
   }
+
+  addNewUser(user:any){
+    this.users.push(user.value);
+    user.value = '';
+    user.focus();
+    return false;
+  }
   
   sayHello(){
     alert("Hola desde app.component");
