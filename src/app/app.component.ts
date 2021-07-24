@@ -6,51 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  users = ['ryan', 'joe', 'cameron', 'john'];
-  activated = false;
-  title = 'my-dream-app';
-  name : string;
-  email;
-  webpage : string;
-  hobbies : string[];
-  showHobbies : boolean;
-
-  constructor(){
-    console.log("Constructor working...")
-    this.name = "Vladimir Solorzano";
-    this.email = "vsolorzano@unsa.edu.pe"
-    this.webpage = "www.unsa.edu.pe";
-    this.hobbies = ["Futbol, Videojuegos, Otros"];
-    this.showHobbies = false;
-  }
-
-  toggleHobbies(){
-    this.showHobbies = !this.showHobbies;
-  }
-
-  newHobby(hobby:any){
-    this.hobbies.push(hobby.value);
-    hobby.value = "";
-    return false;
-    
-  }
-
-  deleteUser(user:any){
-    for (let i = 0; i < this.users.length; i++) {
-      if(user==this.users[i]){
-        this.users.splice(i, 1);
-      }
-    }
-  }
-
-  addNewUser(user:any){
-    this.users.push(user.value);
-    user.value = '';
-    user.focus();
-    return false;
-  }
-  
-  sayHello(){
-    alert("Hola desde app.component");
-  }
+  name: string = "Vladimir Edson Solorzano Huamani";
+  age: number = 40;
 }
