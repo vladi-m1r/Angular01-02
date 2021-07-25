@@ -1,5 +1,9 @@
 # Angular 1 se encuentra en la rama master
 # Angular 2 se encuentra en la rama Angular 02
+# Angular+Django (Ang-02-prueba) esta en https://github.com/vladi-m1r/Django-Angular-Build-prod-
+
+* * *
+
 # MyDreamApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
