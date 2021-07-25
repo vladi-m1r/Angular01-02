@@ -1,3 +1,5 @@
+# Angular 1 se encuentra en la rama master
+# Angular 2 se encuentra en la rama Angular 02
 # MyDreamApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
